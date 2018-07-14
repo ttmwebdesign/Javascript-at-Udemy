@@ -70,14 +70,100 @@ if (markBmi > johnBmi) {
 */
 
 // Boolean logic
+/*
 
 let firstName = 'John';
 let age = 16;
 
 if (age < 13) {
   console.log(firstName + ' is a boy.');
-} else if (age > 13 && age < 20) {  // between 13 and 20
+} else if (age >= 13 && age < 20) {  // between 13 and 20
   console.log(firstName + ' is a teenager.');
+} else if (age >= 20 && age < 30) {  // between 20 and 30
+  console.log(firstName + ' is a young man.');
 } else {
   console.log(firstName + ' is a man.');
 }
+
+*/
+
+// Ternary operator and switch statements
+/*
+let firstName = 'John';
+let age = 16;
+
+age >= 21 ? console.log(firstName + ' can drink beer.')
+:  console.log(firstName + ' cannot drink beer.');
+
+let drink = age >= 21 ? 'beer' : 'juice';
+console.log(drink);
+
+let job = 'teacher';
+switch (job) {
+  case 'teacher':
+    console.log(firstName + ' teaches kids how to code.');
+    break;
+  case 'driver':
+    console.log(firstName + ' drives an uber in San Francisco.');
+    break;
+  case 'designer':
+    console.log(firstName + ' designs beautiful websites.');
+    break;
+  default:
+    console.log(firstName + ' does something else.');
+    break;
+};
+
+
+
+switch (true) {
+  case age < 13:
+    console.log(firstName + ' is a boy.');
+    break;
+  case age >= 13 && age < 20:
+    console.log(firstName + ' is a teenager.');
+    break;
+  case age >= 20 && age < 30:
+    console.log(firstName + ' is a young man.');
+    break;
+  default:
+    console.log(firstName + ' is a man.');
+    break;
+}
+*/
+
+// Truthy and Falsy values
+
+// falsy values: undefined, null, 0, '', NaN
+// truthy values: NOT falsy values
+
+/*
+let height;
+height = 0;
+
+if (height || height === 0) {
+  console.log('Variable is defined.');
+} else {
+  console.log('Variable has not been defined.');
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
