@@ -148,6 +148,8 @@ if (height || height === 0) {
 }
 */
 
+// stopped @ 1:50 on the video on JS-2 coding challenge
+
 
 
 
